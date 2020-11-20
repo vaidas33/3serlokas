@@ -13,7 +13,7 @@ img {
 div {
     width: 30%;
     display: inline-block;
-    float: left;
+    float: right;
     text-align: center;
     margin:0;
     margin-top: 200px;
@@ -42,3 +42,19 @@ div {
         text-decoration: none;
         text-transform: uppercase;
     }
+
+@media (max-width: 1100px){
+    img {
+        width:40%;
+        float: right;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    div {
+        width: 40%;
+        float: right;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 50px;
+    }
+}
